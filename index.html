@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Studio Star - Seu espaço completo de beleza e bem-estar com profissionais qualificadas">
+    <title>Studio Star★</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">Studio <span>Star★</span></a>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Serviços</a>
+                <a href="#team" class="nav-link">Profissionais</a>
+                <a href="#location" class="nav-link">Localização</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu">
+        <button class="close-menu" id="closeMenu" aria-label="Fechar menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#services" class="mobile-link">Serviços</a>
+        <a href="#team" class="mobile-link">Profissionais</a>
+        <a href="#location" class="mobile-link">Localização</a>
+        <a href="#contact" class="mobile-link">Contato</a>
+
+    </div>
+    <div id="overlay" class="overlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content-container">
+            <div class="hero-content">
+                <h1>Brilhe, seja luz!</h1>
+                <p class="hero-description">Transforme. Renove. Brilhe.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Serviços</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.pexels.com/photos/3738339/pexels-photo-3738339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tratamento de beleza Studio Star">
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="services" class="section">
+        <div class="section-title">
+            <span class="subtitle">O que oferecemos</span>
+            <h2>Nossos Serviços</h2>
+        </div>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="https://images.pexels.com/photos/16063917/pexels-photo-16063917/free-photo-of-modelo-face-rosto-cara.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Estética Facial">
+                    <div class="service-tag">Destaque</div>
+                </div>
+                <div class="service-content">
+                    <h3>Estética Facial</h3>
+                    <p>Tratamentos faciais personalizados para realçar sua beleza natural e rejuvenescer sua pele. Limpeza, hidratação, peeling e muito mais.</p>
+                    <a href="https://wa.me/5500000000000?text=Olá! Gostaria de agendar um serviço de Estética Facial" class="btn btn-service">Agendar Agora</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="https://images.pexels.com/photos/16063917/pexels-photo-16063917/free-photo-of-modelo-face-rosto-cara.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Estética Corporal">
+                </div>
+                <div class="service-content">
+                    <h3>Estética Corporal</h3>
+                    <p>Tratamentos corporais que melhoram a aparência da pele, reduzem medidas e proporcionam bem-estar. Massagens modeladoras e drenagem linfática.</p>
+                    <a href="https://wa.me/5500000000000?text=Olá! Gostaria de agendar um serviço de Estética Corporal" class="btn btn-service">Agendar Agora</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="https://images.pexels.com/photos/16063917/pexels-photo-16063917/free-photo-of-modelo-face-rosto-cara.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Manicure e Pedicure">
+                </div>
+                <div class="service-content">
+                    <h3>Manicure e Pedicure</h3>
+                    <p>Cuidados completos para suas mãos e pés. Esmaltes de alta qualidade, esmaltação em gel, unhas de fibra e decorações exclusivas.</p>
+                    <a href="https://wa.me/5500000000000?text=Olá! Gostaria de agendar um serviço de Manicure e Pedicure" class="btn btn-service">Agendar Agora</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="https://images.pexels.com/photos/16063917/pexels-photo-16063917/free-photo-of-modelo-face-rosto-cara.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Extensão de Cílios">
+                    <div class="service-tag">Popular</div>
+                </div>
+                <div class="service-content">
+                    <h3>Extensão de Cílios</h3>
+                    <p>Realce seu olhar com nossa extensão de cílios. Técnicas fio a fio, volume russo e híbrida para um resultado natural e duradouro.</p>
+                    <a href="https://wa.me/5500000000000?text=Olá! Gostaria de agendar um serviço de Extensão de Cílios" class="btn btn-service">Agendar Agora</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="https://images.pexels.com/photos/16063917/pexels-photo-16063917/free-photo-of-modelo-face-rosto-cara.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Design de Sobrancelhas">
+                </div>
+                <div class="service-content">
+                    <h3>Design de Sobrancelhas</h3>
+                    <p>Design personalizado que valoriza sua expressão facial. Micropigmentação, henna e laminação para sobrancelhas perfeitas.</p>
+                    <a href="https://wa.me/5500000000000?text=Olá! Gostaria de agendar um serviço de Design de Sobrancelhas" class="btn btn-service">Agendar Agora</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="https://images.pexels.com/photos/16063917/pexels-photo-16063917/free-photo-of-modelo-face-rosto-cara.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tratamentos Capilares">
+                </div>
+                <div class="service-content">
+                    <h3>Tratamentos Capilares</h3>
+                    <p>Hidratação, nutrição e reconstrução capilar. Deixe seus cabelos mais saudáveis, brilhantes e bonitos com nossos tratamentos especializados.</p>
+                    <a href="https://wa.me/5500000000000?text=Olá! Gostaria de agendar um serviço de Tratamento Capilar" class="btn btn-service">Agendar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profissionais -->
+    <section id="team" class="section team">
+        <div class="section-title">
+            <span class="subtitle">Conheça nossa equipe</span>
+            <h2>Nossas Profissionais</h2>
+        </div>
+        <div class="team-container">
+            <div class="team-member">
+                <div class="member-img">
+                    <img src="https://images.pexels.com/photos/16063917/pexels-photo-16063917/free-photo-of-modelo-face-rosto-cara.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ana Silva">
+                </div>
+                <div class="member-info">
+                    <h3>Ana Silva</h3>
+                    <p>Esteticista Facial</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-img">
+                    <img src="https://images.pexels.com/photos/16063917/pexels-photo-16063917/free-photo-of-modelo-face-rosto-cara.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Carla Oliveira">
+                </div>
+                <div class="member-info">
+                    <h3>Carla Oliveira</h3>
+                    <p>Esteticista Corporal</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-img">
+                    <img src="https://images.pexels.com/photos/16063917/pexels-photo-16063917/free-photo-of-modelo-face-rosto-cara.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Bruna Santos">
+                </div>
+                <div class="member-info">
+                    <h3>Bruna Santos</h3>
+                    <p>Manicure e Pedicure</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-img">
+                    <img src="https://images.pexels.com/photos/16063917/pexels-photo-16063917/free-photo-of-modelo-face-rosto-cara.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Daniela Martins">
+                </div>
+                <div class="member-info">
+                    <h3>Daniela Martins</h3>
+                    <p>Especialista em Cílios</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vantagens -->
+<section id="benefits" class="section benefits">
+    <div class="section-title">
+        <span class="subtitle">Por que nos escolher</span>
+        <h2>Nossas Vantagens</h2>
+    </div>
+    <div class="benefits-container">
+        <div class="benefit-item">
+            <div class="benefit-icon">
+                <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Equipe</h3>
+            <p>Profissionais experientes e em constante aperfeiçoamento para garantir qualidade e excelência.</p>
+        </div>
+        <div class="benefit-item">
+            <div class="benefit-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <h3>Qualidade</h3>
+            <p>Produtos de alto padrão que proporcionam resultados visíveis e de longa duração em cada sessão.</p>
+        </div>
+        <div class="benefit-item">
+            <div class="benefit-icon">
+                <i class="fas fa-calendar-check"></i>
+            </div>
+            <h3>Agenda</h3>
+            <p>Horários variados e flexíveis, adaptados à rotina das clientes para máxima conveniência.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Localização -->
+    <section id="location" class="section location">
+        <div class="section-title">
+            <span class="subtitle">Onde estamos</span>
+            <h2>Nossa Localização</h2>
+        </div>
+        <div class="location-container">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14142.552028779673!2d-48.66897065!3d-27.6047504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95274b2349694873%3A0x35afb9e0851b70a7!2sBrasil%20Atacadista!5e0!3m2!1spt-BR!2sbr!4v1745429647074!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="location-info">
+                <h3>Visite-nos</h3>
+                <p>Estamos localizados em um espaço agradável e acessível no coração da cidade.</p>
+                <ul class="location-details">
+                    <li><i class="fas fa-map-marker-alt"></i> Rua da Beleza, 123 - Centro</li>
+                    <li><i class="fas fa-phone"></i> (00) 00000-0000</li>
+                    <li><i class="fas fa-envelope"></i> contato@studiostar.com.br</li>
+                </ul>
+                <a href="https://goo.gl/maps/123" class="btn btn-primary" target="_blank">Ver no Maps</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Studio <span>Star★</span></h3>
+                <p>Seu espaço completo de beleza e bem-estar. Tratamentos personalizados com profissionais qualificadas.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Contato</h3>
+                <ul class="footer-info">
+                    <li><i class="fas fa-phone"></i> (00) 00000-0000</li>
+                    <li><i class="fas fa-envelope"></i> contato@studiostar.com.br</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Rua da Beleza, 123 - Centro</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Horário</h3>
+                <div class="footer-hours-container">
+                    <div class="footer-hour-row">
+                        <span class="day">Segunda a Sexta:</span>
+                        <span class="time">9h às 19h</span>
+                    </div>
+                    <div class="footer-hour-row">
+                        <span class="day">Sábado:</span>
+                        <span class="time">9h às 17h</span>
+                    </div>
+                    <div class="footer-hour-row">
+                        <span class="day">Domingo:</span>
+                        <span class="time">Fechado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#team">Profissionais</a></li>
+                    <li><a href="#benefits">Vantagens</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 <strong>Studio Star★</strong>. Todos os direitos reservados.</p>
+        <p>Desenvolvido com ☕ por <a href="https://euoryan.com" target="_blank"><strong>Ryan</strong>.</a></p>
+        </div>
+    </footer>
+
+    <!-- Botões Flutuantes -->
+    <a href="https://wa.me/5548984613946?text=Olá! Gostaria de saber mais sobre o Studio Star" class="whatsapp-btn" aria-label="Contato via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
